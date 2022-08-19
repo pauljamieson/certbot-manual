@@ -16,7 +16,7 @@ You will need the data and url to run the container.
  * filedata = String of characters refered to as just this data
  * Port 80 needs to be open to work.
 
-    docker run -it -p 80:80 certbot-manual <filename\> <filedata\>
+    docker run -it -p 80:80 paulto/certbot-manual <filename\> <filedata\>
     
 Press Enter to continue on the certbot console after docker outputs "Server listening on port 80.".
 Certificate should be created in /etc/letsencrypt/live/<domain name\>
